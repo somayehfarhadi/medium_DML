@@ -1,6 +1,6 @@
 # Direct method, IPS and doubly robust OPE: a small simulation
 
-This is the simulation from the article [What Should Machine Learning Be Allowed to Learn in Off-Policy Evaluation?] by Somayeh Farhadi.
+This is the simulation from the article "What Should Machine Learning Be Allowed to Learn in Off-Policy Evaluation?" by Somayeh Farhadi.
 
 A logging policy decides whether to give a renewal discount and records the probability of each decision. From those logs we estimate how much a new discount rule would change the renewal rate, using three estimators: the direct method, inverse propensity scoring (IPS), and a cross-fitted doubly robust (DR) estimator. The outcome model is deliberately weak. With the logging probability known, the weak model biases the direct method but not DR, and DR has less than half the RMSE of IPS.
 
